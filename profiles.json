@@ -1,0 +1,68 @@
+[
+    {
+      "id": 1,
+      "address": "Jalan Pemuda No. 1",
+      "name": "john doe",
+      "UserId": 1
+    },
+    {
+      "id": 2,
+      "address": "Jalan Sudirman No. 2",
+      "name": "jane doe",
+      "UserId": 2
+    },
+    {
+      "id": 3,
+      "address": "Jalan Merdeka No. 3",
+      "name": "peter jones",
+      "UserId": 3
+    },
+    {
+      "id": 4,
+      "address": "Jalan MH Thamrin No. 4",
+      "name": "mary smith",
+      "UserId": 4
+    },
+    {
+      "id": 5,
+      "address": "Jalan Gatot Subroto No. 5",
+      "name": "david johnson",
+      "UserId": 5
+    },
+    {
+      "id": 6,
+      "address": "Jalan Sisingamangaraja No. 6",
+      "name": "linda williams",
+      "UserId": 6
+    },
+    {
+      "id": 7,
+      "address": "Jalan Supriyadi No. 7",
+      "name": "james brown",
+      "UserId": 7
+    },
+    {
+      "id": 8,
+      "address": "Jalan Diponegoro No. 8",
+      "name": "jennifer miller",
+      "UserId": 8
+    },
+    {
+      "id": 9,
+      "address": "Jalan Proklamasi No. 9",
+      "name": "robert smith",
+      "UserId": 9
+    },
+    {
+      "id": 10,
+      "address": "Jalan Merdeka Barat No. 10",
+      "name": "mary jones",
+      "UserId": 10
+    },
+    {
+      "id": 11,
+      "address": "Jalan Sudirman No. 11",
+      "name": "chris lee",
+      "UserId": 11
+    }
+]

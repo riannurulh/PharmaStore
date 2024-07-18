@@ -1,0 +1,124 @@
+[
+    {
+    "name": "Paracetamol",
+    "description": "Obat penurun demam dan pereda nyeri ringan hingga sedang.",
+    "price": 15000,
+    "SellerId": 1
+    },
+    {
+    "name": "Amoxicillin",
+    "description": "Antibiotik untuk infeksi bakteri seperti infeksi saluran pernapasan.",
+    "price": 25000,
+    "SellerId": 1
+    },
+    {
+    "name": "Cetirizine",
+    "description": "Obat antihistamin untuk alergi seperti rinitis alergi.",
+    "price": 20000,
+    "SellerId": 1
+    },
+    {
+    "name": "Ibuprofen",
+    "description": "Obat antiinflamasi nonsteroid untuk mengurangi nyeri dan peradangan.",
+    "price": 18000,
+    "SellerId": 1
+    },
+    {
+    "name": "Loperamide",
+    "description": "Obat antidiare untuk mengatasi diare akut.",
+    "price": 22000,
+    "SellerId": 1
+    },
+    {
+    "name": "Omeprazole",
+    "description": "Obat untuk mengurangi produksi asam lambung pada penyakit maag.",
+    "price": 30000,
+    "SellerId": 1
+    },
+    {
+    "name": "Salbutamol",
+    "description": "Obat bronkodilator untuk meredakan serangan asma.",
+    "price": 28000,
+    "SellerId": 1
+    },
+    {
+    "name": "Simvastatin",
+    "description": "Obat untuk menurunkan kadar kolesterol dalam darah.",
+    "price": 35000,
+    "SellerId": 1
+    },
+    {
+    "name": "Dexamethasone",
+    "description": "Obat kortikosteroid untuk mengurangi peradangan dan alergi.",
+    "price": 27000,
+    "SellerId": 1
+    },
+    {
+    "name": "Metformin",
+    "description": "Obat untuk mengontrol gula darah pada penderita diabetes tipe 2.",
+    "price": 32000,
+    "SellerId": 1
+    },
+    {
+    "name": "Ranitidine",
+    "description": "Obat untuk mengurangi produksi asam lambung pada penyakit maag.",
+    "price": 29000,
+    "SellerId": 1
+    },
+    {
+    "name": "Aspirin",
+    "description": "Obat pereda nyeri dan antiinflamasi.",
+    "price": 17000,
+    "SellerId": 1
+    },
+    {
+    "name": "Glibenclamide",
+    "description": "Obat hipoglikemik untuk mengontrol gula darah pada diabetes tipe 2.",
+    "price": 31000,
+    "SellerId": 1
+    },
+    {
+    "name": "Hydrochlorothiazide",
+    "description": "Obat diuretik untuk mengurangi tekanan darah tinggi.",
+    "price": 26000,
+    "SellerId": 1
+    },
+    {
+    "name": "Metronidazole",
+    "description": "Antibiotik untuk infeksi bakteri tertentu seperti infeksi usus.",
+    "price": 24000,
+    "SellerId": 1
+    },
+    {
+    "name": "Amlodipine",
+    "description": "Obat untuk mengontrol tekanan darah tinggi dan angina.",
+    "price": 33000,
+    "SellerId": 1
+    },
+    {
+    "name": "Atorvastatin",
+    "description": "Obat untuk menurunkan kadar kolesterol dalam darah.",
+    "price": 34000,
+    "SellerId": 1
+    },
+    {
+    "name": "Cefixime",
+    "description": "Antibiotik untuk infeksi bakteri seperti infeksi saluran kemih.",
+    "price": 23000,
+    "SellerId": 1
+    },
+    {
+    "name": "Diclofenac",
+    "description": "Obat antiinflamasi nonsteroid untuk mengurangi nyeri dan peradangan.",
+    "price": 19000,
+    "SellerId": 1
+    },
+    {
+    "name": "Enalapril",
+    "description": "Obat untuk mengontrol tekanan darah tinggi dan gagal jantung.",
+    "price": 36000,
+    "SellerId": 1
+    }
+]
+
+  

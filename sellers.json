@@ -1,0 +1,9 @@
+[
+    {
+       "id": 1,
+        "address": "Jl. Adhi Karya",
+        "name": "Patria Prasetya Nusa",
+        "password" : "asd123",
+        "email" : "ppp@aaa.xyz"
+    }
+]

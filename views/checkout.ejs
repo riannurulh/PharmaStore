@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Include Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 p-6">
+    <div class="max-w-4xl mx-auto bg-white p-6 rounded shadow">
+        <table class="w-full mb-8">
+            <thead>
+                <tr class="bg-gray-100">
+                    <th class="border px-4 py-2">#</th>
+                    <th class="border px-4 py-2">Name</th>
+                    <th class="border px-4 py-2">Price</th>
+                    <th class="border px-4 py-2">Total</th>
+                    <th class="border px-4 py-2">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% data[0].Products.forEach((element,idx) => { %>
+                <tr>
+                    <td class="border px-4 py-2"><%= idx+1 %></td>
+                    <td class="border px-4 py-2"><%= element.name %></td>
+                    <td class="border px-4 py-2"><%= formatIDR(element.priceFormat) %></td>
+                    <td class="border px-4 py-2"><%= element.OrderProduct.total %></td>
+                    <td class="border px-4 py-2">
+                        <a href="/delete/<%= element.id %>" class="text-red-500 hover:text-red-700">Delete</a>
+                    </td>
+                </tr>
+                <% }) %>
+            </tbody>
+        </table>
+        <p class="text-xl font-bold mb-4">Total Price : <%= formatIDR((data[0].Products.reduce((partialSum,element) => partialSum+(element.price*element.OrderProduct.total),0)).toLocaleString('id-ID')) %></p>
+        <form action="" class="mb-8">
+            <label for="fname" class="block mb-2">Nama penerima:</label>
+            <input type="text" id="fname" value="<%= data[0].name %>" class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:border-blue-500">
+            <label for="lname" class="block my-2">Alamat:</label>
+            <textarea id="lname" class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:border-blue-500"><%= data[0].address %></textarea>
+            <a href="/sendOrder/<%= data[0].id %>" type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mt-4 rounded">Kirim Sekarang</a href="/sendOrder/<%= data[0].id %>">
+        </form>
+    </div>
+</body>
+</html>
